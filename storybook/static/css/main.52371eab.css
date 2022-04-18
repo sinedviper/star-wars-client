@@ -1,0 +1,112 @@
+.UiButton_button__z9Z\+v {
+  min-width: 100px;
+  padding: 10px;
+  border-radius: 3px;
+
+  font-size: var(--font-size-small);
+  font-weight: var(--font-bold);
+  background: none;
+  outline: none;
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.UiButton_button__z9Z\+v:disabled,
+.UiButton_button__z9Z\+v:disabled:hover {
+  color: var(--color-grey);
+  border-color: var(--color-grey);
+  background-color: transparent;
+  cursor: auto;
+}
+
+.UiButton_dark__n7jAr {
+  border: 1px solid var(--color-white);
+  color: var(--color-white);
+}
+
+.UiButton_dark__n7jAr:hover {
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+
+.UiButton_light__7\+Yx8 {
+  border: 1px solid var(--color-black);
+  color: var(--color-black);
+}
+
+.UiButton_light__7\+Yx8:hover {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+:root {
+  --font-size-small: 14px;
+  --font-size-medium: 16px;
+
+  --color-grey: #9c9c9c;
+  --color-lightgrey: #dfe2df;
+  --color-black: black;
+  --color-white: white;
+  --color-blue: #6a83fb;
+}
+
+.UiInput_wrapper__input__MRdmo {
+  --border-radius: 3px;
+  --border: 3px;
+  --clear-width: 35px;
+
+  position: relative;
+  display: inline-flex;
+}
+
+.UiInput_input__Gc3NF {
+  max-width: 300px;
+  padding: 10px 15px;
+  padding-right: calc(var(--clear-width) + 15px);
+
+  border: var(--border) solid;
+  border-color: var(--color-lightgrey);
+  border-radius: var(--border-radius);
+  font-size: var(--font-size-medium);
+  outline: none;
+}
+
+.UiInput_input__Gc3NF:focus {
+  border-color: var(--color-blue);
+}
+
+.UiInput_clear__i9PO4 {
+  position: absolute;
+
+  top: var(--border);
+  right: var(--border);
+  width: var(--clear-width);
+  height: calc(100% - var(--border) * 2);
+
+  padding: 10px;
+  object-fit: contain;
+  object-position: center center;
+  transition: 0.5s;
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.UiInput_clear__disabled__Kt2NT {
+  opacity: 0.2;
+}
+
+.UiLoading_loader__HhEju {
+  width: 120px;
+  height: 120px;
+}
+
+.UiLoading_shadow__UeTGs {
+  -webkit-filter: drop-shadow(0 0 2px #000);
+          filter: drop-shadow(0 0 2px #000);
+}
+
+.UiVideo_video__HtulZ {
+}
+
+
+/*# sourceMappingURL=main.52371eab.css.map*/
