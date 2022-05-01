@@ -7,11 +7,12 @@
  * ### npm storybook - launch styles overview.
 
 ## Libraries used in the project:
-* ### React
-* ### React-dom && React-router-dom
-* ### Redux && React-redux
-* ### classnames
-* ### lodash
-* ### prop-types
-* ### storybook
-* ### webpack
+* ### React,
+* ### React-Dom,
+* ### React-Router-Dom,
+* ### Redux,
+* ### classnames,
+* ### lodash,
+* ### prop-types,
+* ### storybook,
+* ### webpack.
