@@ -8,7 +8,6 @@
 
 ## Libraries used in the project:
 * ### React,
-* ### React-Dom,
 * ### React-Router-Dom,
 * ### Redux,
 * ### classnames,
